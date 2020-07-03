@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -82,9 +83,9 @@
       </section>
 
       <section id="Work" class="WorkSection">
-        <h1 class="main-headings h-work">WORK I'M PROUD OF</h1>
+        <h1 class="main-headings h-work" data-aos="slide-up">WORK I'M PROUD OF</h1>
         <div class="row">
-          <div class="column">
+          <div class="column" data-aos="slide-up">
             <div class="card prj-1">
               <div class="project p-1">
                 <div class="project-title">
@@ -118,7 +119,7 @@
             </div>
           </div>
 
-          <div class="column">
+          <div class="column" data-aos="slide-up">
             <div class="card">
               <div class="project p-2">
 
@@ -147,7 +148,7 @@
             </div>
           </div>
 
-          <div class="column">
+          <div class="column" data-aos="slide-up">
             <div class="card">
               <div class="project p-3">
                 <div class="project-title pp3">
@@ -186,7 +187,7 @@
             </div>
           </div>
 
-          <div class="column">
+          <div class="column" data-aos="slide-up">
             <div class="card">
               <div class="project p-4">
                 <div class="project-title pp4">
@@ -215,7 +216,7 @@
 
         </div>
 
-        <div class="button-holding-div">
+        <div class="button-holding-div" data-aos="slide-up">
           <div class="button-outlined-div">
             <a class="button-outlined b-work">VIEW ALL MY PROJECTS</a>
           </div>
@@ -377,6 +378,12 @@
         </div>
         <p class="footer-build">Designed and Built using HTML, CSS  and JavaScript in Bangalore</p>
       </footer> 
-
+      
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 1200,
+        });
+      </script>
   </body>
 </html>
